@@ -1,3 +1,26 @@
-* {
-    box-sizing: border-box;
+body {
+  font-family: "Roboto", serif;
+}
+
+.city {
+  font-size: 32px;
+}
+
+.container-temp {
+  display: flex;
+  justify-content: center;
+  background-color: yellowgreen;
+  box-shadow: 5px 6px rgba(0, 0, 0, 0.5);
+  cursor: pointer;
+  font-size: 100px;
+  font-weight: 900;
+  text-shadow: 3px 6px rgba(0, 0, 0, 0.2);
+}
+
+.weather {
+  font-size: 32px;
+}
+
+.low-high {
+  font-size: 22px;
 }
